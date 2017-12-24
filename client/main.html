@@ -1,0 +1,29 @@
+<head>
+  <title>aws-api</title>
+</head>
+
+<body>
+<div class="container">
+<center>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+  {{> info}}
+</center>
+</div>
+</body>
+
+<template name="hello">
+	<form id="aws">
+	<input type = "text" name = "input">
+	<input type = "submit" value = "SUBMIT"> <br>
+	<input type = "text" name = "data">
+	</form>
+	<br><br>
+	<textarea rows="15" cols="50" name="comment" form="aws">Output will be shown here</textarea>
+
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+</template>
